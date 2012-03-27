@@ -1,0 +1,62 @@
+@font-face {
+	font-family: Aaargh;
+	src: url('fonts/Aaargh.ttf');
+	font-weight: 400;
+}
+@font-face {
+	font-family: Chunk;
+	src: url('fonts/Chunk.otf');
+	font-weight: 400;
+}
+
+html {
+	min-height: 100%;
+}
+
+body {
+	height: 100%;
+
+	background: -webkit-linear-gradient(top, #3a3a3a, #5c5c5c);
+	background: -moz-linear-gradient(top, #3a3a3a, #5c5c5c);
+	background: -o-linear-gradient(top, #3a3a3a, #5c5c5c);
+	background: -ms-linear-gradient(top, #3a3a3a, #5c5c5c);
+	background: linear-gradient(top, #3a3a3a, #5c5c5c);
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: #f1f1f1;
+	margin: 100px auto;
+	padding: 0;
+}
+
+h1 {
+	font-family: Chunk, Helvetica, Arial, sans-serif;
+	font-size: 4em;
+	line-height: 140%;
+	text-shadow: 0 -1px 0 #000,
+				 0 1px 0 #fff;
+	color: rgb(87,181,81);
+}
+
+.color {
+	font-family: Courier;
+	font-size: 28px;
+	/*font-style: italic;*/
+}
+
+dl {
+	margin: 0;
+	padding: 0;
+}
+
+dt {
+	/*background:  green;
+	*/
+padding: 10px 0;
+}
+
+dd {
+	/*background:  lime;
+	*/
+margin: 0;
+}

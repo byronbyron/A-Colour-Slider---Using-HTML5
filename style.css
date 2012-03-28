@@ -25,6 +25,7 @@ body {
 	font-size: 16px;
 	text-align: center;
 	color: #f1f1f1;
+	text-shadow: 0 -1px 0 #000;
 	margin: 100px auto;
 	padding: 0;
 }
@@ -35,28 +36,28 @@ h1 {
 	line-height: 140%;
 	text-shadow: 0 -1px 0 #000,
 				 0 1px 0 #fff;
-	color: rgb(87,181,81);
 }
 
 .color {
 	font-family: Courier;
 	font-size: 28px;
-	/*font-style: italic;*/
 }
 
 dl {
-	margin: 0;
+	margin-bottom: 40px;
 	padding: 0;
 }
 
 dt {
-	/*background:  green;
-	*/
-padding: 10px 0;
+	padding: 10px 0;
 }
 
 dd {
-	/*background:  lime;
-	*/
-margin: 0;
+	margin: 0 auto;
+	min-width: 300px;
+	width: 30%;
+}
+
+.twitter {
+	font-size: 20px;
 }

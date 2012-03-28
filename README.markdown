@@ -1,6 +1,8 @@
 #A Colour Slider - Using HTML5#
 
-Simply use the sliders to adjust the colour of the heading to your liking. Then, just like magic, the CSS code is updated to reflect the color you have chosen.
+A simple app to help you find the color value you want.
+
+Simply use the sliders to adjust the colour of the heading to your liking. Then, just like magic, the CSS code is updated to reflect the color value.
 
 It should work in all the modern browsers.
 

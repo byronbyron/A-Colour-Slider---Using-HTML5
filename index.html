@@ -6,7 +6,40 @@
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<title>Colour Slider With HTML5</title>
+	<title>A Colour Slider - Using HTML5</title>
+	<script src="http://www.frequency-decoder.com/demo/fd-slider/js/modernizr-custom.js"></script>
+	<script>   
+	// Set up the yepnope (Modernizr.load) directives... 
+	Modernizr.load([
+	{
+	    // Test if Input Range is supported using Modernizr
+	    test: Modernizr.inputtypes.range,
+	    // If ranges are not supported, load the slider script and CSS file
+	    nope: [     
+	        // The slider CSS file
+	        'http://www.frequency-decoder.com/demo/fd-slider/css/fd-slider.mhtml.min.css'       
+	        // The slider JS file
+	        ,'http://www.frequency-decoder.com/demo/fd-slider/js/fd-slider.js'     
+	    ],
+	    callback: function(id, testResult) {
+	        // If the slider file has loaded then fire the onDomReady event        
+	        if("fdSlider" in window && typeof (fdSlider.onDomReady) != "undefined") {
+	            try { fdSlider.onDomReady(); } catch(err) {};
+	        };
+	    }
+	}
+	]);
+	</script>
+
+	<script>
+	.fd-slider
+        {                     
+        width:400px;
+        height:20px;
+        margin:0 0 10px 0;
+        }
+	</script>
+
 </head>
 <body>
 

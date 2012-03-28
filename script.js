@@ -30,8 +30,9 @@
 		heading.css('color', 'rgb(' + [r,g,b].join(',') + ')');
 
 		doc.on('change', 'input', function() {
-			heading.css('color',
-				'rgb(' + [red.val(), green.val(), blue.val()].join(',') + ')');
+			heading.css('color', 'rgb(' + 
+				[red.val(), green.val(), blue.val()].join(',') 
+			+ ')');
 		});
 
 		$('<p></p>', {
@@ -40,7 +41,9 @@
 		}).insertAfter('h1');
 
 		doc.on('mouseup', function() {
-			str = 'color: rgb(' + [red.val(), green.val(), blue.val()].join(',') + ');';
+			str = 'color: rgb(' + 
+				[red.val(), green.val(), blue.val()].join(',') 
+			+ ');';
 			$('.color').html(str);
 		});
 

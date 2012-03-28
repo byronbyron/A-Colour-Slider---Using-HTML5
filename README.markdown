@@ -2,7 +2,7 @@
 
 A simple app to help you find the colour value you want.
 
-Simply use the sliders to adjust the colour of the heading to your liking. Then, just like magic, the CSS code is updated to reflect the color value.
+Simply use the sliders to adjust the colour of the heading to your liking. Then, just like magic, the CSS code is updated to reflect the colour value.
 
 It should work in all the modern browsers.
 

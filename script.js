@@ -40,7 +40,7 @@
 			class: 'color'
 		}).insertAfter('h1');
 
-		doc.on('mouseup', function() {
+		doc.on('change', function() {
 			str = 'color: rgb(' + 
 				[red.val(), green.val(), blue.val()].join(',') 
 			+ ');';

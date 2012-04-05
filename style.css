@@ -26,16 +26,25 @@ body {
 	text-align: center;
 	color: #f1f1f1;
 	text-shadow: 0 -1px 0 #000;
-	margin: 100px auto;
+	margin: 80px auto 0;
 	padding: 0;
 }
+
+::-moz-selection { background: #666; color: #fff; text-shadow: none; }
+::selection { background: #666; color: #fff; text-shadow: none; }
 
 h1 {
 	font-family: Chunk, Helvetica, Arial, sans-serif;
 	font-size: 4em;
 	line-height: 140%;
+	margin: 0;
 	text-shadow: 0 -1px 0 #000,
 				 0 1px 0 #fff;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 16px;
 }
 
 .color {

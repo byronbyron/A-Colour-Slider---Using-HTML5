@@ -55,7 +55,7 @@
 		$('<p></p>', {
 			text: 'color: rgb(' + [r,g,b].join(',') + ');',
 			class: 'color'
-		}).insertAfter('h1');
+		}).insertAfter('hgroup');
 
 		// When the slider changes, the color
 		// value changes at the same time!

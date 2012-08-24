@@ -1,12 +1,8 @@
 @font-face {
-	font-family: Aaargh;
-	src: url('fonts/Aaargh.ttf');
-	font-weight: 400;
-}
-@font-face {
 	font-family: Chunk;
-	src: url('fonts/Chunk.otf');
-	font-weight: 400;
+	src: url(fonts/Chunk.otf) format("opentype");
+	font-weight: normal;
+	font-style: normal;
 }
 
 html {
@@ -16,30 +12,26 @@ html {
 body {
 	height: 100%;
 
-	background: -webkit-linear-gradient(top, #3a3a3a, #5c5c5c);
-	background: -moz-linear-gradient(top, #3a3a3a, #5c5c5c);
-	background: -o-linear-gradient(top, #3a3a3a, #5c5c5c);
-	background: -ms-linear-gradient(top, #3a3a3a, #5c5c5c);
-	background: linear-gradient(top, #3a3a3a, #5c5c5c);
-	font-family: Helvetica, Arial, sans-serif;
+	background: -webkit-linear-gradient(top, #bbb, #eee);
+	background: -moz-linear-gradient(top, #bbb, #eee);
+	background: -o-linear-gradient(top, #bbb, #eee);
+	background: -ms-linear-gradient(top, #bbb, #eee);
+	background: linear-gradient(top, #bbb, #eee);
+	font-family: Trebuchet, "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	text-align: center;
-	color: #f1f1f1;
-	text-shadow: 0 -1px 0 #000;
+	color: #3e3e3e;
 	margin: 80px auto 0;
 	padding: 0;
 }
-
-::-moz-selection { background: #666; color: #fff; text-shadow: none; }
-::selection { background: #666; color: #fff; text-shadow: none; }
 
 h1 {
 	font-family: Chunk, Helvetica, Arial, sans-serif;
 	font-size: 4em;
 	line-height: 140%;
 	margin: 0;
-	text-shadow: 0 -1px 0 #000,
-				 0 1px 0 #fff;
+	text-shadow: -1px -1px 2px #999,
+				 1px 1px 2px #bbb;
 }
 
 h2 {
@@ -68,5 +60,15 @@ dd {
 }
 
 .twitter {
+	font-size: 16px;
+}
+.twitter a {
 	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.twitter a:hover {
+	text-shadow: -1px -1px 1px #bbb,
+				 1px 1px 1px #ddd;
+	text-decoration: underline;
 }

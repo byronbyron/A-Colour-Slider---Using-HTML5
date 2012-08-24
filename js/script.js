@@ -21,7 +21,7 @@
 		
 		// Grab the heading and inputs.
 		heading = $('h1');
-		twitter = $('p em a');
+		twitter = $('p a');
 		red 	= $('#r');
 		green 	= $('#g');
 		blue 	= $('#b');

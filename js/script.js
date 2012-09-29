@@ -6,7 +6,7 @@
 		doc = $(document),
 		r,g,b;	
 	
-	// Check to see if thaa browser 
+	// Check to see if tha browser 
 	// supports the 'range' attribute.
 	function supportsRange() {
 		var i = $('input');

@@ -17,3 +17,5 @@ It should work in all the modern browsers.
 * Support for all browsers &#x2713;
 * Update value using a text field
 * Support for other colour inputs (hexadecimal)
+
+## [Demo](https://byronbyron.github.io/A-Colour-Slider---Using-HTML5/)

@@ -1,4 +1,4 @@
-# A Colour Slider - Using HTML5#
+# A Colour Slider - Using HTML5
 
 A simple app to help you find the colour value you want.
 
@@ -12,7 +12,7 @@ Finally, after making sure the range input type definitely exists, my script cas
 
 It should work in all the modern browsers.
 
-## Possible Improvement Ideas##
+## Possible Improvement Ideas
 
 * Support for all browsers &#x2713;
 * Update value using a text field
